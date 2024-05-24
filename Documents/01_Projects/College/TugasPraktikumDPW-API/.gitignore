@@ -18,3 +18,40 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Ignore system files and directories
+/Application Data/
+/Cookies/
+/Local Settings/
+/My Documents/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/Start Menu/
+/Templates/
+
+# Ignore user-specific files
+../../../../NTUSER.DAT*
+../../../../desktop.ini
+../../../../Thumbs.db
+
+# Ignore IDE and editor directories
+.idea/
+.vscode/
+.eclipse/
+.atom/
+.cache/
+.config/
+.local/
+.virtualenv/
+node_modules/
+
+# Ignore specific files
+../../../../*.log
+../../../../*.ini
+../../../../*.bak
+../../../../*.lock
+../../../../*.7z
+../../../../*.txt
+../../../../*.lnk
