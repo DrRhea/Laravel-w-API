@@ -1,0 +1,57 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Ignore system files and directories
+/Application Data/
+/Cookies/
+/Local Settings/
+/My Documents/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/Start Menu/
+/Templates/
+
+# Ignore user-specific files
+../../../../NTUSER.DAT*
+../../../../desktop.ini
+../../../../Thumbs.db
+
+# Ignore IDE and editor directories
+.idea/
+.vscode/
+.eclipse/
+.atom/
+.cache/
+.config/
+.local/
+.virtualenv/
+node_modules/
+
+# Ignore specific files
+../../../../*.log
+../../../../*.ini
+../../../../*.bak
+../../../../*.lock
+../../../../*.7z
+../../../../*.txt
+../../../../*.lnk
